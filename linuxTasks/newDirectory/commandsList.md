@@ -1,0 +1,49 @@
+### Список команд:
+   `под user:`
+   - 18  cd GBAttestation
+   - 19  ll
+   - 20  cat > 'Домашние животные'
+   - 21  cat > 'Вьючные животные'
+   - 22  cat 'Домашние животные' 'Вьючные животные' > 'Все животные'
+   - 23  ll
+   - 24  cat 'Все животные'
+   - 25  mv 'Все животные' 'Друзья человека'
+   - 26  ll
+   - 27  mkdir newDirectory
+   - 28  ll
+   - 29  mv 'Друзья человека' newDirectory
+   - 30  ll
+   - 31  cd newDirectory
+   - 32  ll
+   - 33* cat 'Друзья человека'
+   - 34* sudo apt install mysql-server mysql-clien
+   - 35  sudo mysql
+   - 36  ps afx
+   - 37  ss -ntlp
+   - 38  sudo dpkg -i ~/shared/mysql-apt-config_0.8.24-1_all.deb
+   - 39  sudo apt update
+   - 40  sudo apt upgrade
+   - 41  sudo apt install mysql-workbench-community
+   - 42  sudo mysql -u root
+   - 43  sudo mysql
+   - 44  sudo su
+   - 45  history
+   
+    `под root:`
+   - 1  cd ~
+   - 2  ll
+   - 3  wget https://download.virtualbox.org/virtualbox/7.0.6/virtualbox-7.0_7.0.6-155176~Ubuntu~jammy_amd64.deb
+   - 4  ll
+   - 5  dpkg -i virtualbox-7.0_7.0.6-155176~Ubuntu~jammy_amd64.deb
+   - 6  apt -f install
+   - 7  cd /etc/apt
+   - 8  ll
+   - 9  cd sources.list.d/
+   - 10  ll
+   - 11  cat > vb.list
+   - 12  nano vb.list
+   - 13  apt update
+   - 14  wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg
+   - 15  apt update
+   - 16  dpkg -r virtualbox-7.0
+   - 17  history
