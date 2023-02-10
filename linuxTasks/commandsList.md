@@ -29,7 +29,7 @@
    - 44  sudo su
    - 45  history
    
-    `под root:`
+   `под root:`
    - 1  cd ~
    - 2  ll
    - 3  wget https://download.virtualbox.org/virtualbox/7.0.6/virtualbox-7.0_7.0.6-155176~Ubuntu~jammy_amd64.deb
