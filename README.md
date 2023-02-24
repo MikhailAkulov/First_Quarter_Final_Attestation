@@ -78,3 +78,11 @@
     Нужно бросить исключение, если работа с объектом типа счетчик была не в ресурсном try и/или ресурс остался открыт. 
 
     Значение считать в ресурсе try, если при заведении животного заполнены все поля.
+    
+    Реализация Приложения:
+    
+    [AnimalNursery](https://github.com/MikhailAkulov/First_Quarter_Final_Attestation/tree/main/AnimalNursery/src/main/java)
+    
+    Точка входа:
+    
+    [Application](https://github.com/MikhailAkulov/First_Quarter_Final_Attestation/blob/main/AnimalNursery/src/main/java/Application.java)
